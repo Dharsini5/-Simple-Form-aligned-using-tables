@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Form using HTML input type</title>
+</head>
+<body>
+    <center>
+        <fieldset>
+            <legend>HTML Form</legend><br><br>
+            <form>
+                <table>
+                    <tr>
+                        <td><label>Name</label></td>
+                        <td><input type="text" name="name" required></td>
+                    </tr>
+                    <tr>
+                        <td><input type="hidden" name="id" value="11"></td>
+                    </tr>
+                    <tr>
+                        <td><label>Age</label></td>
+                        <td><input type="number" name="number" autocomplete="off"></td>
+                    </tr>
+                    <tr>
+                        <td><label>Date of Birth</label></td>
+                        <td><input type="date" name="birthdate"></td>
+                    </tr>
+                    <tr>
+                        <td><label>Gender</label></td>
+                        <td>
+                            <input type="radio" name="Gender" value="male"><label for="Male">Male</label>
+                            <input type="radio" name="Gender" value="female"><label for="Female">Female</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label>Address</label></td>
+                        <td><textarea placeholder="Enter your Address"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td><label>State</label></td>
+                        <td>
+                            <select>
+                                <option>Select your state</option>
+                                <option selected>Tamil Nadu</option>
+                                <option>Kerala</option>
+                                <option>Karnataka</option>
+                                <option>Andhra Pradesh</option>
+                                <option>Telangana</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label>Email Address</label></td>
+                        <td><input type="email" name="email"></td>
+                    </tr>
+                    <tr>
+                        <td><label>Password</label></td>
+                        <td><input type="password" name="password"></td>
+                    </tr>
+                    <tr>
+                        <td><label>Phone</label></td>
+                        <td><input type="tel" name="phone"></td>
+                    </tr>
+                    <tr>
+                        <td><label>Department</label></td>
+                        <td><input type="text" name="department"></td>
+                    </tr>
+                    <tr>
+                        <td><label>Skills</label></td>
+                        <td>
+                            <input type="checkbox" name="html" checked><label>HTML</label>
+                            <input type="range" name="html"><br>
+                            <input type="checkbox" name="css"><label>CSS</label>
+                            <input type="range" name="css"><br>
+                            <input type="checkbox" name="javascript"><label>JavaScript</label>
+                            <input type="range" name="javascript"><br>
+                            <input type="checkbox" name="java"><label>Java</label>
+                            <input type="range" name="java"><br>
+                            <input type="checkbox" name="python"><label>Python</label>
+                            <input type="range" name="python">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label>choose Color</label></td>
+                        <td><input type="color" name="color"></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><input type="image" src="C:\Users\Dharsini\OneDrive\Pictures\bab.jpg" width="250px" height="250px"></td>
+                    </tr>
+                    <tr>
+                        <td><label>Datetime-Local</label></td>
+                        <td><input type="datetime-local" name="datetime"></td>
+                    </tr>
+                    <tr>
+                        <td><label>Month</label></td>
+                        <td><input type="month" name="month"></td>
+                    </tr>
+                    <tr>
+                        <td><label>File</label></td>
+                        <td><input type="file" name="filename"></td>
+                    </tr>
+                    <tr>
+                        <td><label>Search</label></td>
+                        <td><input type="search" name="search"></td>
+                    </tr>
+                    <tr>
+                        <td><label>Time</label></td>
+                        <td><input type="time" name="time"></td>
+                    </tr>
+                    <tr>
+                        <td><label>Week</label></td>
+                        <td><input type="week" name="week"></td>
+                    </tr>
+                    <tr>
+                        <td><label>URL</label></td>
+                        <td><input type="url" name="url"></td>
+                    </tr>
+                    <center>
+                    <tr>
+                        <td></td>
+                        <td>
+                            <input type="button" name="Submit" value="Submit"><br><br>
+                            <input type="submit"><br><br>
+                            <input type="reset">
+                        </td>
+                    </tr>
+                </center>
+                </table>
+            </form>
+        </fieldset>
+    </center>
+</body>
+</html>
